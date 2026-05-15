@@ -1,0 +1,35 @@
+# Personal Introduction Program
+# Asks for user's name, age, and hobby, then displays a friendly welcome message
+
+print("=" * 50)
+print("   Welcome to the Personal Introduction Program!")
+print("=" * 50)
+print()
+
+# Collecting user information using input()
+name  = input("👋 What is your name? ")
+age   = input("🎂 How old are you? ")
+hobby = input("🎯 What is your favorite hobby? ")
+city  = input("🏙️  What city are you from? ")
+
+print()
+print("=" * 50)
+print("🌟 Nice to meet you! Here's your profile:")
+print("=" * 50)
+
+# Displaying the welcome message using f-strings
+print(f"""
+  Hello, {name}! 👋
+  
+  Here's what I know about you:
+  • 🎂 Age    : {age} years old
+  • 🎯 Hobby  : {hobby}
+  • 🏙️ City   : {city}
+
+  It's wonderful to meet someone from {city}
+  who loves {hobby}! Keep it up, {name}! 🌟
+""")
+
+print("=" * 50)
+print("Thanks for using the Personal Introduction Program!")
+print("=" * 50)
